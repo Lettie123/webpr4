@@ -1,7 +1,7 @@
 var val = document.getElementById("valR").value;
-document.getElementById("img").src = ".jpg";
+document.getElementById("img").src = ".png";
   function showVal(newVal){
-     if(newVal >=90 && newVal < 100)
+    if(newVal >90 && newVal < 100)
     document.getElementById("img").src = "img/a01.png";
      else if(newVal >= 80 && newVal < 90)
     document.getElementById("img").src = "img/a02.png";
@@ -19,10 +19,13 @@ document.getElementById("img").src = ".jpg";
     document.getElementById("img").src = "img/a08.png";
     else if(newVal >= 10 && newVal < 20)
     document.getElementById("img").src = "img/a09.png";
+    else if(newVal >= 0 && newVal < 10)
+    document.getElementById("img").src = "img/a10.png";
+
 }
 
 var val = document.getElementById("valR2").value;
-document.getElementById("img").src = ".jpg";
+document.getElementById("img").src = "img/00.png";
   function showVal2(newVal){
      if(newVal >0 && newVal < 10)
     document.getElementById("img").src = "img/b01.png";
@@ -36,4 +39,17 @@ document.getElementById("img").src = ".jpg";
     document.getElementById("img").src = "img/b05.png";
     else if(newVal >= 50 && newVal < 60)
     document.getElementById("img").src = "img/b06.png";
+    else if(newVal >= 60 && newVal < 70)
+    document.getElementById("img").src = "img/b07.png";
+    else if(newVal >= 70 && newVal < 80)
+    document.getElementById("img").src = "img/b08.png";
+    else if(newVal >= 80 && newVal < 90)
+    document.getElementById("img").src = "img/b09.png";
+    else if(newVal >= 90 && newVal < 100)
+    document.getElementById("img").src = "img/b10.png";
+
+}
+
+function next(){
+    window.location.href="02.html";
 }
