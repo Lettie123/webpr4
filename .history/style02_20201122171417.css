@@ -101,7 +101,7 @@
   #arrow{
 	width: 350px;
 	height: 350px;
-  position: absolute;
+    position: absolute;
 	left: 57%;
 	top: 105%;
 	transform: translate(-50%,-50%);

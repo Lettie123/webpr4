@@ -4,8 +4,6 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="style02.css">
-        <script src="main.js"> </script>
       
     </head>
 
@@ -25,10 +23,6 @@
             </div>
 
             <div id="main2" style= "display: none;">
-                <img src="pepic/pe02.png" style="width:89.6%">
-            </div>
-
-            <div id="main2a" style= "display: none;">
                 <img src="pepic/pe02.png" style="width:89.6%">
             </div>
 
@@ -56,52 +50,28 @@
             Who Am I?
         </button>
 
-        <div id=No2  style="display: none;">
-            <div id="lineab">
-                <span>
-                    <img src="img/line01a.png" style="width:41%; position:absolute; top:12%; left:4%;">
-                    <img src="img/line02a.png" style="width:41%; position:absolute; top:12%; left:53%;">
-                </span>
-            </div>
+        <div id="No2" style="visibility:hidden">
             <input id="valR" type="range" min="0" max="100" value="100" step="5" oninput="showVal(this.value)" onchange="showVal(this.value)" />
-                <span id="range"></span>
-                <img id="img" src="img/00.png">
-                <div id="line01">
-                  <span>
-                    <img src="img/line01.png" style="width:40%; position:absolute; top:15%; left:6%;">
-                  </span>
-                </div>
-                <div id="arrow" onclick="tz4()">
-                    <span>
-                        <img src="img/arrow.png" style="width:40%">
-                    </span>
-                </div>
-            
-            <input id="valR2" type="range" min="0" max="100" value="0" step="5" oninput="showVal2(this.value)" onchange="showVal2(this.value)" />
-                <span id="range2"></span>
-                <img id="img2">
-                <span>
-                  <img src="img/line02.png" style="width:40%; position:absolute; top:15%; left:52%;">
-                </span>
-              </div>
-            
+            <span id="range"></span>
+              <img id="img">
+               <div id="line01">
+            <span>
+            <img src="img/line01.png" style="width:40%; position:absolute; top:15%; left:6%;">
+            </span>
+        </div>
+
+             input id="valR2" type="range" min="0" max="100" value="0" step="5" oninput="showVal2(this.value)" onchange="showVal2(this.value)" />
+             <span id="range2"></span>
+             <img id="img2">
+             <span>
+             <img src="img/line02.png" style="width:40%; position:absolute; top:15%; left:52%;">
+             </span>
+        </div>
         </div>
 
 
         <script>
-        function tz4(){
-        window.location.href="02.html";
-        }
         function tz3(){
-        document.getElementById("bg").style.display="none";
-        document.getElementById("main2").style.display="none";
-        document.getElementById("No2").style.display="block";
-        document.getElementById("bga").style.display="none";
-        document.getElementById("main3").style.visibility="hidden";
-        document.getElementById("main4").style.visibility="hidden";
-        document.getElementById("button1").style.visibility="hidden"; 
-        document.getElementById("maina").style.WebkitAnimationPlayState = "running";
-        document.getElementById("main2a").style.display="block" 
             
         }
         function tz2(){
