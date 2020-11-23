@@ -1,0 +1,217 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#p22{   
+    animation:an22 2s;
+    -webkit-animation:an22 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an22 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p03{   
+    animation:an3 2s;
+    -webkit-animation:an3 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an3 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p04{   
+    animation:an4 2s;
+    -webkit-animation:an4 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an4 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p06{   
+    animation:an6 2s;
+    -webkit-animation:an6 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an6 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p22{   
+    animation:an22 2s;
+    -webkit-animation:an22 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an22 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p25{   
+    animation:an25 2s;
+    -webkit-animation:an25 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an25 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p27{   
+    animation:an27 2s;
+    -webkit-animation:an27 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an27 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p31{   
+    animation:an31 2s;
+    -webkit-animation:an31 2s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an31 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p02{   
+    animation:an02 3s;
+    -webkit-animation:an02 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an02 {
+    0% {opacity: 0; }
+    30% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p10{   
+    animation:an10 3s;
+    -webkit-animation:an10 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an10 {
+    0% {opacity: 0; }
+    30% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p16{   
+    animation:an16 3s;
+    -webkit-animation:an16 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an16 {
+    0% {opacity: 0; }
+    30% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p23{   
+    animation:an23 3s;
+    -webkit-animation:an23 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an23 {
+    0% {opacity: 0; }
+    30% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p29{   
+    animation:an29 3s;
+    -webkit-animation:an29 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an29 {
+    0% {opacity: 0; }
+    30% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p05{   
+    animation:an05 4s;
+    -webkit-animation:an05 4s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an05 {
+    0% {opacity: 0; }
+    50% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p12{   
+    animation:an12 4s;
+    -webkit-animation:an12 4s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an12 {
+    0% {opacity: 0; }
+    50% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p15{   
+    animation:an15 4s;
+    -webkit-animation:an15 4s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an15 {
+    0% {opacity: 0; }
+    50% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p17{   
+    animation:an17 4s;
+    -webkit-animation:an17 4s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an17 {
+    0% {opacity: 0; }
+    50% {opacity: 0; }
+	to {opacity: 1; }
+}

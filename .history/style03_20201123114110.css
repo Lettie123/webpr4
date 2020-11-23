@@ -1,0 +1,126 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#pic{   
+    animation:change1 5s;
+    -webkit-animation:change1 5s; /* Safari and Chrome */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes change1 {
+	0% {opacity: 0;}
+	30%{opacity: 0;}
+	to {opacity: 1;}
+}
+
+#txt{
+	text-align: center;
+	background-color:rgba(203, 202, 202, 70%);
+	border-radius: 0px;
+	width: 500px;
+    height: 100px;
+	position: absolute;
+	left: 50%;
+    top: 45%;
+    font-family: Arial;
+    color:#000000;
+	transform: translate(-50%,-50%);
+}
+
+#t1{   
+    animation:txt1 2s;
+    -webkit-animation:txt1 2s; /* Safari and Chrome */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt1 {
+	0% {opacity: 0; top:50%}
+	to {opacity: 1; top:15%}
+}
+#arrow2{
+	width: 350px;
+	height: 350px;
+    position: absolute;
+	left: 57%;
+	top: 105%;
+	transform: translate(-50%,-50%);
+}
+  #arrow2:hover {
+  opacity: 0.3;
+} 
+#bgbl{
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    right:0;
+	bottom:0;
+	position: absolute;
+}
+#bgbl{   
+    animation:bg1 1.8s;
+    -webkit-animation:bg1 1.8s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bg1 {
+	0% {top:1300px;}
+	to {top:0;}
+}
+#box{
+	text-align: center;
+	width: 2000px;
+    height: 100px;
+	position: absolute;
+	left: 20%;
+    top: 30%;
+    font-family: Arial;
+    font-size:62px ;
+    color:white;
+	transform: translate(-50%,-50%);
+}
+#box{   
+    animation:da1 4s;
+    -webkit-animation:da1 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes da1 {
+    0% {top:40%; opacity: 0;}
+    40% {top:40%; opacity: 0;}
+	to {top:30%; opacity: 1;}
+}
+#arrow3{
+	width: 350px;
+	height: 350px;
+    position: absolute;
+	left: 71%;
+	top: 580%;
+	transform: translate(-50%,-50%);
+}
+  #arrow3:hover {
+  opacity: 0.3;
+} 
+
+#box2{
+	text-align: center;
+	width: 2000px;
+    height: 100px;
+	position: absolute;
+	left: 40%;
+    top: 0%;
+    font-family: Arial;
+    font-size:62px ;
+    color:white;
+	transform: translate(-50%,-50%);
+}

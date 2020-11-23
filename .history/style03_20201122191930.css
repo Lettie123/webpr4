@@ -1,0 +1,19 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#pic{
+	width: 1400px;
+    height: 1400px;
+    /* background-color: rosybrown; */
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	transform: translate(-50%,-50%);
+}
+#p01{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}

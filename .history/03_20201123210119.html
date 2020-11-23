@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style04.css">
+    <div id="bgbl"></div>
+
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/shared/M74BB5KM4?:display_count=y&:origin=viz_share_link",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+
+            var viz = new tableau.Viz(containerDiv, url, options);
+        }
+    </script>
+</head>
+
+<body onload="initViz();">
+    <div id="vizContainer" style="width:270%; height:200%; top:-20%; left:-80%; position: absolute;"></div>
+</body>
+
+<div id="block1">
+</div>
+<div id="block2"></div>
+
+<div id="txt">
+    <div id="t1" style= "position:absolute; top: 10%; left: 30%;">
+    <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+        UNHCR explain ‘fewer than half of all countries in the world submit any data and some of the most populous countries in the world with large suspected stateless populations do not report on statelessness at all’. The true number is far more than the report, UNHCR estimated that there are at least 10 million stateless people globally.
+
+    </h1>
+    </div>
+ </div>
+
+</html>

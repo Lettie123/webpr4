@@ -1,0 +1,17 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#pic{   
+    animation:change1 3s;
+    -webkit-animation:change1 3s; /* Safari and Chrome */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes change1 {
+	0% {opacity: 0;}
+	30%{opacity: 0;}
+	to {opacity: 1;}
+}

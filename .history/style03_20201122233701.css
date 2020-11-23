@@ -1,0 +1,17 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#p01{   
+    animation:an01 5s;
+    -webkit-animation:an01 5s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an01 {
+    0% {opacity: 0; }
+    80% {opacity: 0.4; }
+	to {opacity: 1; }
+}

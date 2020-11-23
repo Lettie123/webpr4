@@ -1,0 +1,101 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#p22{   
+    animation:an22 1s;
+    -webkit-animation:an22 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an22 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p3{   
+    animation:an3 1s;
+    -webkit-animation:an3 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an3 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p4{   
+    animation:an4 1s;
+    -webkit-animation:an4 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an4 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p6{   
+    animation:an6 1s;
+    -webkit-animation:an6 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an6 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p22{   
+    animation:an22 1s;
+    -webkit-animation:an22 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an22 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p25{   
+    animation:an25 1s;
+    -webkit-animation:an25 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an25 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p27{   
+    animation:an27 1s;
+    -webkit-animation:an27 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an27 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+#p31{   
+    animation:an31 1s;
+    -webkit-animation:an31 1s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes an31 {
+    0% {opacity: 0; }
+	to {opacity: 1; }
+}
+
