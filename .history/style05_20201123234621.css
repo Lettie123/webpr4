@@ -1,0 +1,15 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+
+#r01{
+    width: 200px;
+    height: 200px;
+	position: absolute;
+	left: 18%;
+	top: 45%;
+    transform: translate(-50%,-50%);
+    color: #B4B4B4;
+}

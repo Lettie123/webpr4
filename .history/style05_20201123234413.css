@@ -1,0 +1,16 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+
+#r01{
+    width: 350px;
+    height: 350px;
+    background-image: url("./pepic/r01.png");
+	position: absolute;
+	left: 30%;
+	top: 55%;
+    transform: translate(-50%,-50%);
+    color: #B4B4B4;
+}

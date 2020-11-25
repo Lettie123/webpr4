@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style06.css">
+      
+    </head>
+
+    <body>
+        <div>
+            <span>
+                <img src="po/14.png" style="width:18% ;position:absolute; top:30%; left:10%;" >
+            </span> 
+        </div>
+        <div id="chatb"> 
+            <img src="reason/cbox.png" style="width:30%;height:15%; position:absolute; top:14%; left:5%;" >   
+        </div>
+        <div id="others" onclick="change3()" style="display:none;"> 
+            <img src="pepic/others.png" style="width:90%; " > 
+        </div> 
+
+
+        <div id="block"> 
+            <span>
+                <div id="r01" style="display: block;"> 
+                <img src="reason/gen01.png" style="width:60% ;position:absolute; top:40%; left:16%;" >
+                </div>
+            </span>       
+        </div>
+        <div id="block3">
+
+        </div>
+        <div id="txt1" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:10%; left:6%; display:block;">
+            <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+                My mom has nationality of Lebanon, My dad is stateless. But my mom cannot confer her nationality to me. 
+            </h1>
+        </div> 
+        <div id="txt2" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:20%; left:6%; display:none;">
+            <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+                GENDER is the only reason.
+            </h1>
+        </div> 
+        <div id="txt3" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:16%; left:6%; display:none;">
+            <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+                The Lebanese laws do not allow women to confer their nationality to children.
+            </h1>
+        </div> 
+        
+        <div id="lebanon">
+        <div id="lmap" style="display:none;">
+            <img src="pepic/lmap.png" style="width:18%; position:absolute; top:28%; left:50%;" > 
+        </div>
+        <div id="gs1" style="display:none;" > 
+            <img src="pepic/girl.gif" style="width:12%; position:absolute; top:34%; left:50%;" >   
+        </div>
+        </div>
+
+        <div id="gs" style="display:none;"> 
+            <img src="pepic/girl1.png" style="width:12%; position:absolute; top:34%; left:50%;" >   
+        </div>
+
+
+        <div id="block2" style="display:none;">
+            <div id="txta1" style="position:absolute; top:5%; left:4%; width:260px;">
+            <h1 style="font-size:14px; font-style: italic; font-weight:normal; line-height: 20px; ">
+                “ Lebanese women can only confer their citizenship if the child is born out of wedlock and recognized by the Lebanese mother while a minor.”
+            </h1>
+            </div>
+        </div>
+
+        <div id="why" onclick="change1()"> 
+                <img src="pepic/why.png" style="width:90%; " > 
+        </div> 
+    
+
+        <script>
+            function change3(){
+                document.getElementById("block2").style.display="none";
+                document.getElementById("block").style.WebkitAnimationPlayState = "running";
+                document.getElementById("block3").style.WebkitAnimationPlayState = "running";
+            }
+
+            function change2(){
+            document.getElementById("r01").style.display="none"; 
+            document.getElementById("lmap").style.display="block";
+            document.getElementById("txt3").style.display="block";
+            document.getElementById("txt2").style.display="none";
+            document.getElementById("block2").style.display="block";
+            document.getElementById("gs").style.display="none";
+            document.getElementById("gs1").style.display="block";
+            document.getElementById("why").style.display="none";
+            document.getElementById("others").style.display="block";
+            document.getElementById("why").onclick=change3;   
+            }
+            function change1(){
+            document.getElementById("r01").style.WebkitAnimationPlayState = "running";
+            document.getElementById("txt2").style.display="block";
+            document.getElementById("txt1").style.display="none";
+            document.getElementById("gs").style.display="block";
+            document.getElementById("why").onclick=change2;
+            }
+        </script>
+    </body>

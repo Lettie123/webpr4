@@ -1,0 +1,95 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#block{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    top:0;
+    left:40%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+/* #chatb{
+    height: 150px;
+    width: 400px;
+    top:7%;
+    left:5%;
+    right:0;
+	bottom:0;
+    position: absolute;
+} */
+#txt1{
+    height:150px;
+    width:420px;
+    text-align: center;
+	border-radius: 10px;
+	position: absolute;
+    font-family: Arial;
+    color:black;
+}
+#txt1{   
+    animation:txt1 1.2s;
+    -webkit-animation:txt1 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt1 {
+	0% {top:20%;opacity: 0;}
+	to {top:12%;opacity: 1;}
+}
+#why{
+	width: 250px;
+	height: 250px;
+    position: absolute;
+	left: 20%;
+	top: 71%;
+	transform: translate(-50%,-50%);
+}
+#why:hover {
+    opacity: 0.3;
+} 
+#r01{   
+    animation:r01 2s;
+    -webkit-animation:r01 2s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r01 {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+	to {opacity: 0.2;}
+}
+#txt2{   
+    animation:txt1 1.2s;
+    -webkit-animation:txt1 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt1 {
+	0% {top:22%;opacity: 0;}
+	to {top:17%;opacity: 1;}
+}
+#gs{   
+    animation:gs 3s;
+    -webkit-animation:gs 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes gs {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity: 1;}
+}
