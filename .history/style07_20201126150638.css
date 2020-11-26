@@ -1,0 +1,91 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#block{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top:0;
+    left:40%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#why{
+	width: 250px;
+	height: 250px;
+    position: absolute;
+	left: 20%;
+	top: 72%;
+	transform: translate(-50%,-50%);
+}
+#why:hover {
+    opacity: 0.3;
+}
+#txt1{
+    height:150px;
+    width:420px;
+    text-align: left;
+	border-radius: 10px;
+	position: absolute;
+    font-family: Arial;
+    color:black;
+}
+#txt1{   
+    animation:txt1 1.2s;
+    -webkit-animation:txt1 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt1 {
+	0% {top:22%;opacity: 0;}
+	to {top:18%;opacity: 1;}
+}
+#line1{
+    height: 3px;
+    width: 60%;
+    top:38%;
+    left:40%;
+    right:0;
+    bottom:0;
+    background-color:#ffffff;
+    position: absolute;
+}
+#line1{   
+    animation:line1 3s;
+    -webkit-animation:line1 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes line1 {
+    0% {width: 0%; top:40%;}
+    40%{width:60%; top:40%;}
+    70% {top:40%; width:60%;}
+	to {top:50%; width:60%;}
+}
+#r01{
+    top:2%;
+    left:5%;
+    right:0;
+    bottom:0;
+    position: absolute;
+}
+/* #r01{   
+    animation:r01 3s;
+    -webkit-animation:r01 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r01 {
+    0% {top:29%;}
+    70% {top:29%;}
+	to {top:50%;}
+} */

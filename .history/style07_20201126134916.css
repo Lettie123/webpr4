@@ -1,0 +1,26 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#block{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top:0;
+    left:40%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#why{
+	width: 250px;
+	height: 250px;
+    position: absolute;
+	left: 20%;
+	top: 72%;
+	transform: translate(-50%,-50%);
+}
+#why:hover {
+    opacity: 0.3;
+}

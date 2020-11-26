@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style07.css">
+
+<body>
+    <div>
+        <span>
+            <img src="po/28.png" style="width:35% ;position:absolute; top:30%; left:3%;" >
+        </span> 
+    </div>
+    <div id="chatb"> 
+        <img src="reason/cbox.png" style="width:30%;height:20%; position:absolute; top:14%; left:5%;" >   
+    </div>
+    <div id="block">   
+    </div>
+
+        <div id="ren">
+        <img src="pepic/ren.png" style="width:23% ;position:absolute; top:32%; left:52%;" >   
+        </div>
+
+        <div id="r01"> 
+        <img src="pepic/R.png" style="width:17% ;position:absolute; top:29%; left:61%;" >
+        </div>
+        <div id="r02" style="display: block;"> 
+            <img src="pepic/oma.png" style="width:17% ;position:absolute; top:29%; left:62%;" >
+        </div>
+
+        <div id="r01b" style="display: none;"> 
+            <img src="pepic/R.png" style="width:17% ;position:absolute; top:29%; left:61%;" >
+            </div>
+            <div id="r02b" style="display: none;"> 
+                <img src="pepic/oma.png" style="width:17% ;position:absolute; top:29%; left:62%;" >
+        </div>
+
+    <div id="txt1" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:10%; left:6%; display:block;">
+        <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+            We are from the Roma community, which is also called Gypsies. All of our family members are stateless.
+        </h1>
+    </div>
+    <div id="txt2" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:20%; left:6%; display:none;">
+        <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+            There are a lot of reasons for Romanies to be stateless. We cannot go anywhere; we do not have any documents.
+        </h1>
+    </div>
+    <div id="txt3" style="font-size:16px; font-weight: normal; line-height: 24px; position:absolute; top:20%; left:6%; display:none;">
+        <h1 style="font-size:16px; font-weight: normal; line-height: 24px;">
+            Roma is the largest stateless minority in Macedonian. And we are not the only minority group who remain stateless in the world.
+        </h1>
+    </div>
+
+
+    <div id="word" style="display: none;">
+    <div id="ra">
+        <h1 style="font-size:32px; font-weight: normal; line-height: 24px; color: #ffffff;
+        position:absolute; top:30%; left:55%">Racism</h1>
+    </div>
+    <div id="rb">
+        <h1 style="font-size:32px; font-weight: normal; line-height: 24px; color: #ffffff;
+        position:absolute; top:42%; left:65%">Discrimination</h1>
+    </div>
+    <div id="rc">
+        <h1 style="font-size:32px; font-weight: normal; line-height: 24px; color: #ffffff;
+        position:absolute; top:34%; left:80%">War</h1>
+    </div>
+    <div id="rd">
+        <h1 style="font-size:24px; font-weight: normal; line-height: 24px; color: #828181;
+        position:absolute; top:42%; left:55%">History</h1>
+    </div>
+    <div id="re">
+        <h1 style="font-size:24px; font-weight: normal; line-height: 24px; color: #828181;
+        position:absolute; top:39%; left:75%">State Dissolution</h1>
+    </div>
+    <div id="rf">
+        <h1 style="font-size:24px; font-weight: normal; line-height: 24px; color: #828181;
+        position:absolute; top:36%; left:60%">National laws</h1>
+    </div>
+    <div id="rg">
+        <h1 style="font-size:24px; font-weight: normal; line-height: 24px; color: #828181;
+        position:absolute; top:29%; left:66%">Lack Document</h1>
+    </div>
+    <div id="rh">
+        <h1 style="font-size:24px; font-weight: normal; line-height: 24px; color: #828181;
+        position:absolute; top:26%; left:50%">Language</h1>
+    </div>
+    <div id="ri">
+        <h1 style="font-size:32px; font-weight: normal; line-height: 24px; color: #ffffff;
+        position:absolute; top:24%; left:85%">...</h1>
+    </div>
+    </div>
+
+    <div id="line1" style="display:none;"></div>
+    <div id="why" onclick="change1()"> 
+        <img src="pepic/why.png" style="width:90%; "> 
+    </div> 
+
+
+    <script>
+        function change2(){
+        document.getElementById("word").style.display="none";
+        document.getElementById("txt2").style.display="none"; 
+        document.getElementById("txt3").style.display="block";
+        document.getElementById("line1").style.display="none";
+        document.getElementById("r01").style.display="none";
+        document.getElementById("r02").style.display="none";
+        document.getElementById("r01b").style.display="block";
+        document.getElementById("r02b").style.display="block";  
+        }
+        function change1(){
+        document.getElementById("line1").style.display="block";
+        document.getElementById("txt1").style.display="none";
+        document.getElementById("txt2").style.display="block";
+        document.getElementById("r01").style.WebkitAnimationPlayState = "running";
+        document.getElementById("r02").style.WebkitAnimationPlayState = "running";
+        document.getElementById("word").style.display="block";
+        document.getElementById("why").onclick=change2;
+        }
+    </script>
+
+
+</body>
