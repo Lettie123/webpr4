@@ -1,0 +1,89 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#bp01{   
+    animation:bp01 3s;
+    -webkit-animation:bp01 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp01 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp02{   
+    animation:bp02 3s;
+    -webkit-animation:bp02 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp02 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp03{   
+    animation:bp03 3s;
+    -webkit-animation:bp03 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp03 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp04{   
+    animation:bp04 3s;
+    -webkit-animation:bp04 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp04 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp05{   
+    animation:bp05 3s;
+    -webkit-animation:bp05 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp05 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp06{   
+    animation:bp06 3s;
+    -webkit-animation:bp06 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp06 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp07{   
+    animation:bp07 3s;
+    -webkit-animation:bp07 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp07 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}

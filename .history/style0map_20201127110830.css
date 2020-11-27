@@ -1,0 +1,13 @@
+#txt{
+	text-align: center;
+	background-color:rgba(203, 202, 202, 70%);
+	border-radius: 0px;
+	width: 100px;
+    height: 50px;
+	position: absolute;
+	left: 50%;
+    top: 20%;
+    font-family: Arial;
+    color:#000000;
+	transform: translate(-50%,-50%);
+}

@@ -1,0 +1,29 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#bp01{   
+    animation:bp01 3s;
+    -webkit-animation:bp01 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp01 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp02{   
+    animation:bp02 3s;
+    -webkit-animation:bp02 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp02 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
