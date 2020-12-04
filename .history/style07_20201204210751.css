@@ -584,8 +584,8 @@ body {
 	to {opacity:1;}
 }
 #mpeople02{   
-    animation:mpeople02 3s;
-    -webkit-animation:mpeople02 3s; 
+    animation:mpeople02 2s;
+    -webkit-animation:mpeople02 2s; 
     animation-iteration-count:1;
     -webkit-animation-iteration-count:1;
     animation-fill-mode: forwards; 
@@ -593,8 +593,8 @@ body {
 }
 @keyframes mpeople02 {
     0% {opacity: 0;}
-    30% {opacity: 0;}
-	to {opacity: 1;}
+    50% {opacity: 0;}
+	to {opacity: 0.7;}
 }
 #mino01b{   
     animation:mino01b 3s;
@@ -616,7 +616,7 @@ body {
     animation-fill-mode: forwards; 
     -webkit-animation-fill-mode: forwards; 	
 }
-@keyframes mino0b {
+@keyframes mino0 {
     0% {top:30%;}
 	to {top:-180%;}
 }
@@ -632,81 +632,3 @@ body {
     0% {top:52%;}
 	to {top:-158%;}
 }
-#disb01{   
-    animation:disb01 4s;
-    -webkit-animation:disb01 4s; 
-    animation-iteration-count:1;
-    -webkit-animation-iteration-count:1;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards; 	
-}
-@keyframes disb01 {
-    0% {top:120%;}
-    50% {top:120%;}
-	to {top:10%;}
-}
-#disb0{   
-    animation:disb0 4s;
-    -webkit-animation:disb0 4s; 
-    animation-iteration-count:1;
-    -webkit-animation-iteration-count:1;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards; 	
-}
-@keyframes disb0 {
-    0% {top:140%;}
-    50% {top:140%;}
-	to {top:30%;}
-}
-#disb02{   
-    animation:disb02 4s;
-    -webkit-animation:disb02 4s; 
-    animation-iteration-count:1;
-    -webkit-animation-iteration-count:1;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards; 	
-}
-@keyframes disb02 {
-    0% {top:166%;}
-    50% {top:166%;}
-	to {top:55%;}
-}
-#line2b{
-    height: 0.5%;
-    width: 55%;
-    top:16%;
-    left:44.8%;
-    right:0;
-    bottom:0;
-    background-color:#2a5ea3;
-    position: absolute;
-}
-#line2b{   
-    animation:line2b 4s;
-    -webkit-animation:line2b 4s; 
-    animation-iteration-count:1;
-    -webkit-animation-iteration-count:1;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards; 	
-}
-@keyframes line2b {
-    0% {width: 0%;}
-    80% {width: 0%;}
-	to {width: 28%;}
-}
-#next2{   
-    animation:next2 4s;
-    -webkit-animation:next2 4s; 
-    animation-iteration-count:1;
-    -webkit-animation-iteration-count:1;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards; 	
-}
-@keyframes next2 {
-    0% {top:120%;}
-    70% {top:120%;}
-	to {top:82%;}
-}
-#next2:hover {
-    opacity: 0.3;
-} 

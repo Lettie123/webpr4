@@ -82,6 +82,16 @@
     </div> 
     </div>
 
+    <div id="txt1b" style="position:absolute; top:10%; left:7.5%; width:26%; display:none;">
+        <img src="txt/cgen01.png" style="width:100%;" >
+    </div> 
+    <div id="txt2b" style="position:absolute; top:10%; left:7.5%; width:26%; display:none;">
+        <img src="txt/dis02.png" style="width:100%;" >
+    </div> 
+    <div id="txt3b" style="position:absolute; top:10%; left:7.5%; width:26%; display:none;">
+        <img src="txt/dis03.png" style="width:100%;" >
+    </div> 
+
     <div id="word" style="display: none;">
     <div id="ra">
         <h1 style="font-size:32px; font-weight: normal; line-height: 24px; color: #ffffff;
@@ -146,27 +156,6 @@
         <img src="txt/min02.png" style="width:100%;" > 
     </div>
 
-    <div id="disb01" style="width: 23%; position:absolute; top:12%; left:74%;display: none; ">
-        <img src="txt/disb01.png" style="width:100%;" > 
-    </div>
-    <div id="disb0" style="width: 22%; position:absolute; top:40%; left:74%;display: none; ">
-        <img src="txt/disb0.png" style="width:100%;" > 
-    </div>
-    <div id="disb02" style="width: 23%; position:absolute; top:66%; left:74%; display: none;">
-        <img src="txt/disb02.png" style="width:100%;" > 
-    </div>
-
-    <div id="mino01b" style="width: 23%; position:absolute; top:12%; left:74%;display: none; ">
-        <img src="txt/min01.png" style="width:100%;" > 
-    </div>
-    <div id="mino0b" style="width: 22%; position:absolute; top:40%; left:74%;display: none; ">
-        <img src="txt/min0.png" style="width:100%;" > 
-    </div>
-    <div id="mino02b" style="width: 23%; position:absolute; top:66%; left:74%; display: none;">
-        <img src="txt/min02.png" style="width:100%;" > 
-    </div>
-
-
     <div id="mpeople"  style="display:none;" > 
         <img src="pepic/minority.png" style="width:45%;" > 
     </div>
@@ -220,20 +209,12 @@
 
 
     <div id="line1b" style="display: none;"></div>
-    <div id="line2b" style="display: none;"></div>
-
+    
     <div id="next"   style="display:none; position: absolute; top:80%; left:74%;width:30%;" onclick="change5()"> 
         <img src="txt/next.png" style="width:70%;" > 
     </div>
 
-    <div id="next2"   style="display:none; position: absolute; top:80%; left:74%;width:30%;" onclick="change6()"> 
-        <img src="txt/next.png" style="width:70%;" > 
-    </div>
-
     <script>
-        function change6(){
-        window.location.href="st.html";  
-        }
         function change5(){
         document.getElementById("mpeople02").style.display="block";
         document.getElementById("mpeople").style.display="none";
@@ -242,19 +223,12 @@
         document.getElementById("tag3").style.display="none";
         document.getElementById("tag4").style.display="none";
         document.getElementById("tag5").style.display="none";
-        document.getElementById("mino01").style.display="none";
-        document.getElementById("mino0").style.display="none";
-        document.getElementById("mino02").style.display="none";
-        document.getElementById("line1b").style.display="none";
-        document.getElementById("mino01b").style.display="block";
-        document.getElementById("mino0b").style.display="block";
-        document.getElementById("mino02b").style.display="block";
-        document.getElementById("disb01").style.display="block";
-        document.getElementById("disb0").style.display="block";
-        document.getElementById("disb02").style.display="block";
-        document.getElementById("line2b").style.display="block";
-        document.getElementById("next").style.display="none";
-        document.getElementById("next2").style.display="block";
+        document.getElementById("txt1").style.display="none";
+        document.getElementById("txt2").style.display="none";
+        document.getElementById("txt3").style.display="none";
+        document.getElementById("txt1b").style.display="block";
+        document.getElementById("txt2b").style.display="block";
+        document.getElementById("txt3b").style.display="block";
           
         }
         function change3(){
@@ -303,15 +277,15 @@
         document.getElementById("why").onclick=change2;
         }
         function change0(){
-        document.getElementById("whyusfm").style.WebkitAnimationPlayState = "running";
-        document.getElementById("block").style.display="block";
-        document.getElementById("chatb").style.display="block";
-        document.getElementById("whyus").style.display="none";
-        document.getElementById("r01").style.display="block";
-        document.getElementById("r02").style.display="block";
-        document.getElementById("txt1").style.display="block";
-        document.getElementById("txt0").style.display="none";
-        document.getElementById("why").style.display="block";
+            document.getElementById("whyusfm").style.WebkitAnimationPlayState = "running";
+            document.getElementById("block").style.display="block";
+            document.getElementById("chatb").style.display="block";
+            document.getElementById("whyus").style.display="none";
+            document.getElementById("r01").style.display="block";
+            document.getElementById("r02").style.display="block";
+            document.getElementById("txt1").style.display="block";
+            document.getElementById("txt0").style.display="none";
+            document.getElementById("why").style.display="block";
         }
     </script>
 

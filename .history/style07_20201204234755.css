@@ -584,8 +584,8 @@ body {
 	to {opacity:1;}
 }
 #mpeople02{   
-    animation:mpeople02 3s;
-    -webkit-animation:mpeople02 3s; 
+    animation:mpeople02 2s;
+    -webkit-animation:mpeople02 2s; 
     animation-iteration-count:1;
     -webkit-animation-iteration-count:1;
     animation-fill-mode: forwards; 
@@ -593,8 +593,8 @@ body {
 }
 @keyframes mpeople02 {
     0% {opacity: 0;}
-    30% {opacity: 0;}
-	to {opacity: 1;}
+    50% {opacity: 0;}
+	to {opacity: 0.7;}
 }
 #mino01b{   
     animation:mino01b 3s;
@@ -669,7 +669,7 @@ body {
 @keyframes disb02 {
     0% {top:166%;}
     50% {top:166%;}
-	to {top:55%;}
+	to {top:52%;}
 }
 #line2b{
     height: 0.5%;
@@ -707,6 +707,3 @@ body {
     70% {top:120%;}
 	to {top:82%;}
 }
-#next2:hover {
-    opacity: 0.3;
-} 
