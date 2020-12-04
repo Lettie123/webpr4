@@ -1,0 +1,238 @@
+body {
+	overflow:scroll;
+	overflow-y:hidden;
+} 
+#main0{
+	text-align: center;
+	background-color: burlywood;
+	border-radius: 20px;
+	width: 40%;
+	height: 60%;
+	position: absolute;
+	left: 49%;
+	top: 49%;
+	transform: translate(-49%,-49%);
+}
+
+
+#maina{
+	text-align: center;
+	/* background-color: #d39b9b; */
+	border-radius: 20px;
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	left: 49%;
+	top: 49%;
+	transform: translate(-49%,-49%);
+}
+
+
+#main2{
+	text-align: center;
+	/* background-color: #d39b9b; */
+	border-radius: 20px;
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-49.2%,-48%);
+}
+
+#main2a{
+	text-align: center;
+	/* background-color: #d39b9b; */
+	border-radius: 20px;
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-49.2%,-48%);
+}
+
+#main3{
+	text-align: center;
+	/* background-color: #d39b9b; */
+	border-radius: 20px;
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	left: -10%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+}
+
+#main4{
+	text-align: center;
+	background-color:rgba(135, 135, 135, 70%);
+	border-radius: 10px;
+	width: 350px;
+    height: 200px;
+	position: absolute;
+	left: 125%;
+    top: 50%;
+    font-family: Arial;
+    color:#000000;
+	transform: translate(-50%,-50%);
+}
+#bg{
+    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+	bottom:0;
+	position: absolute;
+}
+#bga{
+    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+	bottom:0;
+	position: absolute;
+}
+
+#button1 {
+	box-shadow: 0px 4px 3px 0px #bdbdbd;
+	background-color:#000000;
+	border-radius:5px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+    padding:11px 110px;
+    position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%,-50%);
+}
+#button1:hover {
+    background-color:#3b3b3b;
+    border:1px solid #3b3b3b;
+}
+
+#bg{
+   
+    animation:change 2s;
+    -moz-animation:change 2s; /* Firefox */
+    -webkit-animation:change 2s; /* Safari and Chrome */
+    -o-animation:change 2s; /* Opera */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -moz-animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -moz-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 
+    -o-animation-fill-mode: forwards;
+}
+@keyframes change {
+	0% {opacity: 1;}
+	50%{opacity: 1;}
+	to {opacity: 0.3;}
+  }
+
+#bga{   
+    animation:changea 1.5s;
+    -moz-animation:changea 1.5s; /* Firefox */
+    -webkit-animation:changea 1.5s; /* Safari and Chrome */
+    -o-animation:changea 1.5s; /* Opera */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -moz-animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -moz-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 
+    -o-animation-fill-mode: forwards;
+}
+@keyframes changea {
+	0% {opacity: 0;}
+	50%{opacity: 0;}
+	to {opacity: 1;}
+  }
+#main2{   
+    animation:change1 1s;
+    -moz-animation:change1 1s; /* Firefox */
+    -webkit-animation:change1 1s; /* Safari and Chrome */
+    -o-animation:change1 1s; /* Opera */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -moz-animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -moz-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 
+	-o-animation-fill-mode: forwards;	
+}
+@keyframes change1 {
+	0% {opacity: 0;}
+	50%{opacity: 0;}
+	to {opacity: 1;}
+}
+
+#maina{   
+    animation:suo1 0.6s;
+    -moz-animation:suo1 0.6s; /* Firefox */
+    -webkit-animation:suo1 0.6s; /* Safari and Chrome */
+	-o-animation:suo1 0.6s; /* Opera */
+	-webkit-animation-play-state:paused;
+    animation-iteration-count:1;/*动画只执行一次*/
+    -moz-animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -moz-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 
+	-o-animation-fill-mode: forwards;	
+}
+@keyframes suo1 {
+	0% {width: 450px; height:500px;}
+	to {width: 0px; height:0px; top:3%; left:57%; position: absolute;}
+}
+
+#main2a{   
+    animation:suo2 0.6s;
+    -webkit-animation:suo2 0.6s; /* Safari and Chrome */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -webkit-animation-fill-mode: forwards; 
+}
+@keyframes suo2 {
+	0% {width: 450px; height:500px;}
+	to {width: 0px; height:0px; top:3%; left:32%; position: absolute;}
+}
+
+#img{   
+    animation:change2 1s;
+    -moz-animation:change2 1s; /* Firefox */
+    -webkit-animation:change2 1s; /* Safari and Chrome */
+    -o-animation:change2 1s; /* Opera */
+    animation-iteration-count:1;/*动画只执行一次*/
+    -moz-animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    -o-animation-iteration-count:1;
+    animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+    -moz-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 
+	-o-animation-fill-mode: forwards;	
+}
+@keyframes change2 {
+	0% {opacity: 0;}
+	50%{opacity: 0;}
+	to {opacity: 1;}
+}
+
+
+
+
+
+
+
+

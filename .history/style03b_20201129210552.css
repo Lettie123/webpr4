@@ -1,0 +1,390 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    background-color: #363636;
+} 
+#bp01{   
+    animation:bp01 3s;
+    -webkit-animation:bp01 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp01 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp02{   
+    animation:bp02 3s;
+    -webkit-animation:bp02 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp02 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp03{   
+    animation:bp03 3s;
+    -webkit-animation:bp03 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp03 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp04{   
+    animation:bp04 3s;
+    -webkit-animation:bp04 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp04 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp05{   
+    animation:bp05 3s;
+    -webkit-animation:bp05 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp05 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp06{   
+    animation:bp06 3s;
+    -webkit-animation:bp06 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp06 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp07{   
+    animation:bp07 3s;
+    -webkit-animation:bp07 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp07 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp08{   
+    animation:bp08 3s;
+    -webkit-animation:bp08 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp08 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp09{   
+    animation:bp09 3s;
+    -webkit-animation:bp09 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp09 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp10{   
+    animation:bp10 3s;
+    -webkit-animation:bp10 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp10 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp11{   
+    animation:bp11 3s;
+    -webkit-animation:bp11 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp11 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp12{   
+    animation:bp12 3s;
+    -webkit-animation:bp12 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp12 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp13{   
+    animation:bp13 3s;
+    -webkit-animation:bp13 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp13 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp14{   
+    animation:bp14 3s;
+    -webkit-animation:bp14 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp14 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp15{   
+    animation:bp15 3s;
+    -webkit-animation:bp15 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp15 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp16{   
+    animation:bp16 3s;
+    -webkit-animation:bp16 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp16 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp17{   
+    animation:bp17 3s;
+    -webkit-animation:bp17 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp17 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp18{   
+    animation:bp18 3s;
+    -webkit-animation:bp18 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp18 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp19{   
+    animation:bp19 3s;
+    -webkit-animation:bp19 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp19 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp20{   
+    animation:bp20 3s;
+    -webkit-animation:bp20 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp20 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp21{   
+    animation:bp21 3s;
+    -webkit-animation:bp21 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp21 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp22{   
+    animation:bp22 3s;
+    -webkit-animation:bp22 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp22 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp23{   
+    animation:bp23 3s;
+    -webkit-animation:bp23 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp23 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp24{   
+    animation:bp24 3s;
+    -webkit-animation:bp24 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp24 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp25{   
+    animation:bp25 3s;
+    -webkit-animation:bp25 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp25 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp26{   
+    animation:bp26 3s;
+    -webkit-animation:bp26 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp26 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp27{   
+    animation:bp27 3s;
+    -webkit-animation:bp27 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp27 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp28{   
+    animation:bp28 3s;
+    -webkit-animation:bp28 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp28 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp29{   
+    animation:bp29 3s;
+    -webkit-animation:bp29 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp29 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp30{   
+    animation:bp30 3s;
+    -webkit-animation:bp30 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp30 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp31{   
+    animation:bp31 3s;
+    -webkit-animation:bp31 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp31 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}
+#bp32{   
+    animation:bp32 3s;
+    -webkit-animation:bp32 3s;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bp32 {
+	0% {opacity: 0;}
+	to {opacity: 1;}
+}

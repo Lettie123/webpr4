@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style04.css">
+    <div id="bgbl"></div>
+
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/shared/M74BB5KM4?:display_count=y&:origin=viz_share_link",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+
+            var viz = new tableau.Viz(containerDiv, url, options);
+        }
+    </script>
+</head>
+
+<body onload="initViz();">
+    <div id="vizContainer" style="width:270%; height:200%; top:-20%; left:-80%; position: absolute;"></div>
+</body>
+
+<div id="block1">
+</div>
+<div id="block2"></div>
+
+<div id="txt">
+    <div id="t1" style= "position:absolute; top: 20%; left: 6%;">
+    <h1 style="font-size:100%; font-weight: normal; line-height: 24px;">
+        Hover on the spots to see the geographic distribution of data.
+    </h1>
+    </div>
+ </div>
+
+ <div id="arrow4" onclick="tz()">
+    <div style="width:10%; position: absolute; left: 20%; top: 25%;"> 
+        Why?
+    </div>
+    <span>
+    <img src="img/down1.png" style="width:10%; position: absolute; left: 75%; top: 25%;">
+    </span>
+</div>
+
+<script>
+    function tz(){
+        window.location.href="04.html";   
+    }
+</script>
+</html>

@@ -1,0 +1,598 @@
+body {
+	overflow:scroll;
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+#block{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top:0;
+    left:40%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#block{   
+    animation:block 1.2s;
+    -webkit-animation:block 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block {
+    0% {left:100%;}
+	to {left:40%;}
+}
+#blockb{
+    height: 100%;
+    width: 70%;
+    background-color: black;
+    top:0;
+    left:40%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#blockb{   
+    animation:blockb 1.2s;
+    -webkit-animation:blockb 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes blockb {
+    0% {left:40%;}
+	to {left:0%;}
+}
+#why:hover {
+    opacity: 0.3;
+}
+#why{   
+    animation:why 2s;
+    -webkit-animation:why 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes why {
+    0% {top:120%;}
+    70% {top:120%;}
+	to {top:70%;}
+} 
+#txt1{   
+    animation:txt1 2s;
+    -webkit-animation:txt1 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt1 {
+    0% {top:25%;opacity: 0;}
+    70% {top:25%;opacity: 0;}
+	to {top:14%;opacity: 1;}
+}
+#line1{
+    height: 3px;
+    width: 60%;
+    top:38%;
+    left:40%;
+    right:0;
+    bottom:0;
+    background-color:#ffffff;
+    position: absolute;
+}
+#line1{   
+    animation:line1 3s;
+    -webkit-animation:line1 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes line1 {
+    0% {width: 0%; top:36%;}
+    40%{width:60%; top:36%;}
+    70% {top:36%; width:60%;}
+	to {top:50%; width:60%;}
+}
+
+#txt2{   
+    animation:txt2 0.8s;
+    -webkit-animation:txt2 0.8s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt2 {
+	0% {top:35%;opacity: 0;}
+	to {top:13%;opacity: 1;}
+}
+#ra{   
+    animation:ra 3s;
+    -webkit-animation:ra 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes ra {
+    0% {opacity: 0;}
+	70% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rb{   
+    animation:rb 3s;
+    -webkit-animation:rb 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rb {
+    0% {opacity: 0;}
+	85% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rc{   
+    animation:rc 4s;
+    -webkit-animation:rc 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rc {
+    0% {opacity: 0;}
+	70% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rd{   
+    animation:rd 4s;
+    -webkit-animation:rd 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rd {
+    0% {opacity: 0;}
+	85% {opacity: 0;}
+	to {opacity: 1;}
+}
+#re{   
+    animation:re 5s;
+    -webkit-animation:re 5s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes re {
+    0% {opacity: 0;}
+	70% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rf{   
+    animation:rf 5s;
+    -webkit-animation:rf 5s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rf {
+    0% {opacity: 0;}
+	85% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rg{   
+    animation:rg 6s;
+    -webkit-animation:rg 6s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rg {
+    0% {opacity: 0;}
+	70% {opacity: 0;}
+	to {opacity: 1;}
+}
+#rh{   
+    animation:rh 6s;
+    -webkit-animation:rh 6s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes rh {
+    0% {opacity: 0;}
+	85% {opacity: 0;}
+	to {opacity: 1;}
+}
+#ri{   
+    animation:ri 6s;
+    -webkit-animation:ri 6s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes ri {
+    0% {opacity: 0;}
+	85% {opacity: 0;}
+	to {opacity: 1;}
+}
+#txt3{   
+    animation:txt3 0.7s;
+    -webkit-animation:txt3 0.7s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt3 {
+	0% {top:28%;opacity: 0;}
+	to {top:12%;opacity: 1;}
+}
+#r01b{   
+    animation:r01b 3s;
+    -webkit-animation:r01b 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r01b {
+    0% {top:43%;}
+    50% {top:32%;}
+	to {top:32%;}
+}
+#r02b{   
+    animation:r02b 3s;
+    -webkit-animation:r02b 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r02b {
+    0% {top:43%; opacity: 1;}
+    50% {top:32%;opacity: 1;}
+	to {top:32%;opacity: 0;}
+}
+#ren{   
+    animation:ren 3s;
+    -webkit-animation:ren 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes ren {
+    0% {opacity: 0;}
+    70% {opacity: 0;}
+	to {opacity: 0.7;}
+}
+#block2{   
+    animation:block2 3s;
+    -webkit-animation:block2 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block2 {
+    0% {left:90%;opacity: 0;}
+    70% {left:90%;opacity: 0;}
+	to {left:74%;opacity: 1;}
+}
+#others:hover {
+    opacity: 0.3;
+} 
+#block3{
+    height: 100%;
+    width: 30%;
+    background-color: #131313;
+    top:0;
+    left:100%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#block3{   
+    animation:block3 1.2s;
+    -webkit-animation:block3 1.2s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block3 {
+    0% {left:100%;}
+	to {left:70%;}
+}
+#line02{
+    height: 140px;
+    width: 3px;
+    top:35%;
+    left:13%;
+    right:0;
+    bottom:0;
+    background-color:#2a5ea3;
+    position: absolute;
+}
+#mpeople{
+	width: 95%;
+    position: absolute;
+	left: 60%;
+	top: 48%;
+	transform: translate(-50%,-50%);
+}
+#mpeople02{
+	width: 100%;
+    position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+#line1b{
+    height: 0.5%;
+    width: 23%;
+    top:17%;
+    left:50%;
+    right:0;
+    bottom:0;
+    background-color:#2a5ea3;
+    position: absolute;
+}
+#line1b{   
+    animation:line1b 4s;
+    -webkit-animation:line1b 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes line1b {
+    0% {width: 0%;}
+    80% {width: 0%;}
+	to {width: 23%;}
+}
+#mpeople{   
+    animation:mpeople 3s;
+    -webkit-animation:mpeople 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes mpeople {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+	to {opacity:1;}
+}
+
+#next:hover {
+    opacity: 0.3;
+} 
+#next{   
+    animation:next 4s;
+    -webkit-animation:next 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes next {
+    0% {top:120%;}
+    70% {top:120%;}
+	to {top:85%;}
+}
+#whyusfm{   
+    animation:whyusfm 1.2s;
+    -webkit-animation:whyusfm 1.2s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes whyusfm {
+    0% {left:33%;}
+	to {left:3%;}
+}
+
+  #begain:hover {
+  opacity: 0.3;
+} 
+#r01{   
+    animation:r01  2s;
+    -webkit-animation:r01  2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r01 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity: 1;}
+}
+#r02{   
+    animation:r02  2s;
+    -webkit-animation:r02  2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r02 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity: 1;}
+}
+#chatb{   
+    animation:chatb 2s;
+    -webkit-animation:chatb 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes chatb {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#r01a{   
+    animation:r01a 3s;
+    -webkit-animation:r01a 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r01a {
+    0% {top:32%;}
+    70% {top:32%;}
+	to {top:43%;}
+}
+#r02a{   
+    animation:r02a 3s;
+    -webkit-animation:r02a 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes r02a {
+    0% {top:32%;}
+    70% {top:32%;}
+	to {top:43%;}
+}
+#mino01{   
+    animation:mino01 4s;
+    -webkit-animation:mino01 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes mino01 {
+    0% {top:120%;}
+    50% {top:120%;}
+	to {top:10%;}
+}
+#mino0{   
+    animation:mino0 4s;
+    -webkit-animation:mino0 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes mino0 {
+    0% {top:140%;}
+    50% {top:140%;}
+	to {top:30%;}
+}
+#mino02{   
+    animation:mino02 4s;
+    -webkit-animation:mino02 4s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes mino02 {
+    0% {top:166%;}
+    50% {top:166%;}
+	to {top:52%;}
+}
+#tag1{   
+    animation:tag1 3s;
+    -webkit-animation:tag1 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes tag1 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#tag2{   
+    animation:tag2 3s;
+    -webkit-animation:tag2 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes tag2 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#tag3{   
+    animation:tag3 3s;
+    -webkit-animation:tag3 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes tag3 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#tag4{   
+    animation:tag4 3s;
+    -webkit-animation:tag4 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes tag4 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#tag5{   
+    animation:tag5 3s;
+    -webkit-animation:tag5 3s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes tag5 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity:1;}
+}
+#mpeople02{   
+    animation:mpeople02 2s;
+    -webkit-animation:mpeople02 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes mpeople02 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+	to {opacity: 0.7;}
+}
