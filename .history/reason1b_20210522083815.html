@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style08.css">
+      
+    </head>
+
+    <div id="bg" style="display: block;">
+        <img src="pepic/bgreason1.png" style="height:100%; width:100%;">
+    </div>
+
+    <div id="bar" style="display:block">
+    <img src="pepic/bar.png" style="width:60%; position:absolute; top:5%; left:3%;" > 
+    </div>  
+
+    <div id="bar2" style="display:none">
+        <img src="txt/bar02.png" style="width:60%; position:absolute; top:5%; left:3%;" > 
+    </div>
+
+    <div id="born01" style="display:block;">
+        <img src="txt/born02.png" style="width:33%; position:absolute; top:5%; left:62%;" > 
+    </div>
+
+    <div id="born" style="display:block;">
+        <img src="txt/bornbaby.png" style="width:62%; position:absolute; top:12%; left:2%;" > 
+    </div>
+
+    <div id="mino0" style="display:none;">
+        <img src="txt/minonew.png" style="width:63%; position:absolute; top:14%; left:1.5%;" > 
+    </div>
+    <div id="mino2" style="display:none;">
+        <img src="txt/minotxt.png" style="width:31%; position:absolute; top:10%; left:63%;" > 
+    </div>
+
+    <div id="rohin1" style="display:none;">
+        <img src="txt/rohin1.png" style="width:62%; position:absolute; top:11%; left:3%;" > 
+    </div>
+    <div id="rohin2" style="display:none;">
+        <img src="txt/rohin2.png" style="width:22%; position:absolute; top:12%; left:71.5%;" > 
+    </div>
+
+    <div id="click" onclick="tz()" style="width:20%; position:absolute; top:75%; left:73.5%; display:block">
+        <img src="txt/clickcon.png" style="width:100%;">
+    </div> 
+
+    <div id="bgbl">
+        <div id="last" onclick="tzb()" style="width:28%; position:absolute; top:40%; left:38%; ">
+            <img src="txt/last.png" style="width:100%;">
+        </div>
+        <div id="letter" onclick="tzb()" style="width:18%; position:absolute; top:52%; left:44.5%; display:none; ">
+            <img src="txt/backh.png" style="width:90%;">
+        </div>
+    </div>
+
+    <script>
+        function tzb(){
+        window.location.href="index.html";   
+        }
+        function tz3(){
+        document.getElementById("bgbl").style.WebkitAnimationPlayState = "running";
+        document.getElementById("letter").style.display = "block";
+
+        }
+        function tz2(){
+        document.getElementById("mino2").style.display = "none";
+        document.getElementById("mino0").style.display = "none";
+        document.getElementById("rohin2").style.display = "block";
+        document.getElementById("rohin1").style.display = "block";
+        document.getElementById("click").onclick=tz3;
+        }
+        function tz(){
+        document.getElementById("bar").style.display = "none";
+        document.getElementById("bar2").style.display = "block";
+        document.getElementById("born01").style.display = "none";
+        document.getElementById("born").style.display = "none";
+        document.getElementById("mino2").style.display = "block";
+        document.getElementById("mino0").style.display = "block";
+        document.getElementById("click").onclick=tz2;
+        }
+    
+    
+    </script>
+

@@ -1,0 +1,135 @@
+#bg{
+    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+	bottom:0;
+	position: absolute;
+}
+#txt3{   
+    animation:txt3 0.7s;
+    -webkit-animation:txt3 0.7s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes txt3 {
+	0% {top:30%;opacity: 0;}
+	to {top:14%;opacity: 1;}
+}
+#block2{   
+    animation:block2 2s;
+    -webkit-animation:block2 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block2 {
+    0% {left:90%;opacity: 0;}
+    50% {left:90%;opacity: 0;}
+	to {left:72%;opacity: 1;}
+}
+#others:hover {
+    opacity: 0.3;
+} 
+#blockb{   
+    animation:blockb 2s;
+    -webkit-animation:blockb 2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes blockb {
+    0% {left:40%;}
+	to {left:0%;}
+}
+#block{   
+    animation:block 1.2s;
+    -webkit-animation:block 1.2s; 
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block {
+    0% {left:100%;}
+	to {left:40%;}
+}
+#block3{
+    height: 100%;
+    width: 30%;
+    background-color: #131313;
+    top:0;
+    left:100%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#block3{   
+    animation:block3 1.2s;
+    -webkit-animation:block3 1.2s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes block3 {
+    0% {left:100%;}
+	to {left:70%;}
+}
+#bcross1{
+    height: 100%;
+    width: 70%;
+    top:0;
+    left:0%;
+    right:0;
+	bottom:0;
+    position: absolute;
+}
+#intro01{   
+    animation:intro01 1.2s;
+    -webkit-animation:intro01 1.2s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes intro01 {
+    0% {top:75%;}
+	to {top:10%;}
+}
+#click:hover {
+    opacity: 0.3;
+  } 
+
+#bgbl{
+    height: 100%;
+    background-color: black;
+    top:0;
+    left:0;
+    right:0;
+	bottom:0;
+	position: absolute;
+}
+#bgbl{   
+    animation:bg1 1.8s;
+    -webkit-animation:bg1 1.8s; 
+    -webkit-animation-play-state:paused;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards; 	
+}
+@keyframes bg1 {
+	0% {top:1300px;}
+	to {top:0;}
+}
+
+#letter:hover {
+    opacity: 0.3;
+  } 
